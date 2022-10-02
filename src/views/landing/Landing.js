@@ -36,11 +36,13 @@ import {
   Col
 } from "reactstrap";
 
+import { useMediaQuery } from 'react-responsive';
+
+const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Footer from "components/Footers/SimpleFooter.js";
-import Game from "components/game/runing-game.jsx"
-
 import MainSection from "./sections/MainSection";
 import WhatStings from "./sections/WhatStings";
 import FloodOfChanges from "./sections/FloodOfChanges";
@@ -232,7 +234,9 @@ class Landing extends React.Component {
 
           <IFollowRivers/>
 
-          <Games/>
+          {isMobile == false ? <Games/> : null }
+
+          
 
           <HowHelp/>
 
