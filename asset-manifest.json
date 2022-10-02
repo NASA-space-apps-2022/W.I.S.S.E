@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/W.I.S.S.E/static/css/main.f3a461dd.css",
-    "main.js": "/W.I.S.S.E/static/js/main.2594043d.js",
+    "main.css": "/W.I.S.S.E/static/css/main.3ec45b45.css",
+    "main.js": "/W.I.S.S.E/static/js/main.6221e8ce.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fondo_main.jpg": "/W.I.S.S.E/static/media/fondo_main.3140689f51b81c9a5c21.jpg",
     "static/media/fondo_floods.jpg": "/W.I.S.S.E/static/media/fondo_floods.b039030ffca081e84ca9.jpg",
@@ -10,6 +10,7 @@
     "static/media/olympex2.jpg": "/W.I.S.S.E/static/media/olympex2.5fd2f9c1d4cb72bdf12a.jpg",
     "static/media/img-1-1200x1000.jpg": "/W.I.S.S.E/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
     "static/media/img-2-1200x1000.jpg": "/W.I.S.S.E/static/media/img-2-1200x1000.78ce5ecad91906896cd1.jpg",
+    "static/media/fondo_educate.jpg": "/W.I.S.S.E/static/media/fondo_educate.b2b291ac5a1f572cb476.jpg",
     "static/media/us.jpeg": "/W.I.S.S.E/static/media/us.d76fc4f2659af04444fb.jpeg",
     "static/media/team-3-800x800.jpg": "/W.I.S.S.E/static/media/team-3-800x800.70911cddbb86ea83b652.jpg",
     "static/media/team-1-800x800.jpg": "/W.I.S.S.E/static/media/team-1-800x800.fa5a7ac2c81a43925586.jpg",
@@ -38,7 +39,7 @@
     "index.html": "/W.I.S.S.E/index.html"
   },
   "entrypoints": [
-    "static/css/main.f3a461dd.css",
-    "static/js/main.2594043d.js"
+    "static/css/main.3ec45b45.css",
+    "static/js/main.6221e8ce.js"
   ]
 }
