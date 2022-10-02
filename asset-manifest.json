@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/W.I.S.S.E/static/css/main.d7cbffb9.css",
-    "main.js": "/W.I.S.S.E/static/js/main.d5ef466e.js",
+    "main.js": "/W.I.S.S.E/static/js/main.11545126.js",
+    "static/media/us2.JPG": "/W.I.S.S.E/static/media/us2.a6c7fcfb7f7d1cdf6c75.JPG",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fondo_main.jpg": "/W.I.S.S.E/static/media/fondo_main.3140689f51b81c9a5c21.jpg",
     "static/media/fondo_IFollowRivers.jpg": "/W.I.S.S.E/static/media/fondo_IFollowRivers.d563f8d7a52cb1a4e430.jpg",
@@ -23,12 +24,20 @@
     "static/media/profile.jpg": "/W.I.S.S.E/static/media/profile.991e6d2c8d229cc026b3.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/12.png": "/W.I.S.S.E/static/media/12.789482afd95c9396be40.png",
     "static/media/fondo_stink.jpg": "/W.I.S.S.E/static/media/fondo_stink.08c5213cd3384ea699f1.jpg",
+    "static/media/13.png": "/W.I.S.S.E/static/media/13.ea9d2a11985e4364c957.png",
     "static/media/creativetim-white-slim.png": "/W.I.S.S.E/static/media/creativetim-white-slim.c9b2f68e52151075edf1.png",
+    "static/media/9.png": "/W.I.S.S.E/static/media/9.1d46dfc3e7fff96a52f3.png",
+    "static/media/4.png": "/W.I.S.S.E/static/media/4.4527eae6210d93a49769.png",
+    "static/media/15.png": "/W.I.S.S.E/static/media/15.e2894dfa7e53d409636c.png",
+    "static/media/16.png": "/W.I.S.S.E/static/media/16.8431ea790b9af390ba7c.png",
     "static/media/logo_nav.png": "/W.I.S.S.E/static/media/logo_nav.daaf9c3d0d0228fb305d.png",
+    "static/media/11.png": "/W.I.S.S.E/static/media/11.6793e4f41ea88d2fbb79.png",
     "static/media/argon-react.png": "/W.I.S.S.E/static/media/argon-react.128d71d316a8e92aff4a.png",
     "static/media/argon-react-white.png": "/W.I.S.S.E/static/media/argon-react-white.e4dd3b41697ada43fdcb.png",
     "static/media/augusto.jpg": "/W.I.S.S.E/static/media/augusto.936b41fd7b4833943b34.jpg",
+    "static/media/2.png": "/W.I.S.S.E/static/media/2.c793685a2507b3d2a1cc.png",
     "static/media/nucleo-icons.eot": "/W.I.S.S.E/static/media/nucleo-icons.19abb5402a664606b14c.eot",
     "static/media/nucleo-icons.ttf": "/W.I.S.S.E/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
     "static/media/chiara.jpg": "/W.I.S.S.E/static/media/chiara.b49fdb35f9d57cc3c51b.jpg",
@@ -40,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.d7cbffb9.css",
-    "static/js/main.d5ef466e.js"
+    "static/js/main.11545126.js"
   ]
 }
