@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/W.I.S.S.E/static/css/main.f3a461dd.css",
-    "main.js": "/W.I.S.S.E/static/js/main.e3ba1474.js",
+    "main.js": "/W.I.S.S.E/static/js/main.e2c3bb50.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fondo_main.jpg": "/W.I.S.S.E/static/media/fondo_main.3140689f51b81c9a5c21.jpg",
     "static/media/fondo_floods.jpg": "/W.I.S.S.E/static/media/fondo_floods.b039030ffca081e84ca9.jpg",
     "static/media/fondo_IFollowRivers.jpg": "/W.I.S.S.E/static/media/fondo_IFollowRivers.d563f8d7a52cb1a4e430.jpg",
     "static/media/team-2-800x800.jpg": "/W.I.S.S.E/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
+    "static/media/olympex2.jpg": "/W.I.S.S.E/static/media/olympex2.5fd2f9c1d4cb72bdf12a.jpg",
     "static/media/img-1-1200x1000.jpg": "/W.I.S.S.E/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
     "static/media/img-2-1200x1000.jpg": "/W.I.S.S.E/static/media/img-2-1200x1000.78ce5ecad91906896cd1.jpg",
     "static/media/us.jpeg": "/W.I.S.S.E/static/media/us.d76fc4f2659af04444fb.jpeg",
@@ -38,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.f3a461dd.css",
-    "static/js/main.e3ba1474.js"
+    "static/js/main.e2c3bb50.js"
   ]
 }
