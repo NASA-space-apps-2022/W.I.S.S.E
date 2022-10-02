@@ -20,31 +20,37 @@ import {
 export default function HowHelp() {
     const [occupation, setoccupation] = useState("Student")
     const [data, setdata] = useState()
-    const [img, setimg] = useState()
+    const [link, setlink] = useState()
 
-   useEffect(() => {
-    switch (occupation) {
-        case 'Student':
-            setdata("SDG 13 focuses on climate change. Climate change is caused by anthropogenic emissions of CO2 and other greenhouse gasses. It is affecting every country on every continent. It is disrupting national economies and affecting lives. Go global! Create a network and get to know problematics in other parts of the world. Share your experience learning about the water cycle and its role in our lives and keep learning!.")
-            break;
-        case 'Scientist':
-            setdata()
-            break;
-        case 'Authority':
-            setdata("SDG 16 intends peaceful and inclusive societies based on respect for human rights, protection of the most vulnerable, the rule of law and good governance at all levels. Promote water policies and campaigns that support this kind of data collection. Spread awareness among other authorities and help connect people who face consequences of these phenomena. Alone we can go faster, but together we can go further.")
-            break
-        case 'Citizen':
-            setdata("SDG 11 aims to renew and plan cities and other human settlements in a way that offers opportunities for all, with access to basic services, energy, housing, transportation and green public spaces, while reducing resource use and environmental impact. Your action DOES MAKE A CHANGE.")
-            break;
-        case 'Producer':
-            setdata("SDG 2 seeks sustainable solutions to end hunger in all its forms by 2030 and to achieve food security. While facing plagues on your lands, search for alternativy and sustainable solutions. Check the Good Agricultural Practices provided by FAO, share them with your partners and communicate how you’re implementing these sustainable practices.")
-            break;
-        case 'Educator':
-            setdata("SDG 4 aims at ensuring inclusive and equitable quality education and promotes lifelong learning opportunities for all. Share these factual information and share it with your students! Grow among them curiosity and awareness on the topics. Promote new ways of learning climate sciences and stemas among them.")
-            break;
-        default:      
-    }
-   },[occupation])
+    useEffect(() => {
+        switch (occupation) {
+            case 'Student':
+                setlink("https://dnrtrustlands.org/a-climate-solution/?utm_source=P3D&utm_medium=Search&utm_campaign=P3D_Search&gclid=Cj0KCQjwyt-ZBhCNARIsAKH1174vhlzETer5SBz6b99h_kNm3RktZsZpfWKqwEJxdOTEuVR9Wd8q1SkaAsF4EALw_wcB ")
+                setdata("SDG 13 focuses on climate change. Climate change is caused by anthropogenic emissions of CO2 and other greenhouse gasses. It is affecting every country on every continent. It is disrupting national economies and affecting lives. Go global! Create a network and get to know problematics in other parts of the world. Share your experience learning about the water cycle and its role in our lives and keep learning! ")
+                break;
+            case 'Decision makers':
+                setlink("https://mrsc.org/Home/Explore-Topics/Environment/Water-Topics/Water-Rights.aspx ")
+                setdata("SDG 16 intends peaceful and inclusive societies based on respect for human rights, protection of the most vulnerable, the rule of law and good governance at all levels. Promote water policies and campaigns that support this kind of data collection. Spread awareness among other decision makers and help connect people who face consequences of these phenomena. Alone we can go faster, but together we can go further.")
+                break;
+            case 'Scientist':
+                setlink("https://www.earthdata.nasa.gov/learn/data-user-profiles ")
+                setdata("The SDG 15 aims to protect, restore and promote the sustainable use of terrestrial ecosystems, sustainably manage the forests, combating desertification, arrest and reverse land degradation and halt the loss of biodiversity. As a scientist, you know more about this fact than anyone else. Your responsibility has to do with getting in contact among other scientists and the NASA team members sharing your research that supports our data.")
+                break;
+            case 'Citizen':
+                setlink("https://www.wawater.com/conservation/water-conservation/ ")
+                setdata("SDG 11 aims to renew and plan cities and other human settlements in a way that offers opportunities for all, with access to basic services, energy, housing, transportation and green public spaces, while reducing resource use and environmental impact. Your action DOES MAKE A CHANGE. Implement sustainable habits in your daily life and get involved with others issues and find ways for helping them. ")
+                break;
+            case 'Producer':
+                setlink("https://www.fao.org/3/i6677e/i6677e.pdf ")
+                setdata("SDG 2 seeks sustainable solutions to end hunger in all its forms by 2030 and to achieve food security, while SDG 12 encourages more sustainable consumption and production patterns through various measures. While facing plagues issues on your lands, search alternatives from a sustainable perspective. Check the Good Agricultural Practices provided by FAO, share them with your partners and communicate how you’re implementing them. This way you would not just be making a change in the agricultural industry, but also you would be providing other sanitary places and important biodiversity. ")
+                break;
+            case 'Educator':
+                setlink("https://doh.wa.gov/sites/default/files/legacy/Documents/4200//water_smart.pdf ")
+                setdata("SDG 4 aims at ensuring inclusive and equitable quality education and promotes lifelong learning opportunities for all. Share this factual information and show it to your students! Grow among them curiosity and awareness on the topics. Promote new ways of learning climate sciences and STEMS among them. You can start from the link below.")
+                break;
+            default:
+        }
+    }, [occupation])
 
     return (
         <section className="section pb-0 bg-gradient-warning">
@@ -63,9 +69,14 @@ export default function HowHelp() {
                     </div>
                 </div>
 
+                <h3 className=" text-white"> what is your occupation? </h3>
+
                 <div>
                     <Button color={occupation == "Student" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Student")}>
                         Student
+                    </Button>
+                    <Button color={occupation == "Decision makers" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Decision makers")}>
+                        Decision makers
                     </Button>
                     <Button color={occupation == "Educator" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Educator")}>
                         Educator
@@ -76,15 +87,12 @@ export default function HowHelp() {
                     <Button color={occupation == "Citizen" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Citizen")}>
                         Citizen
                     </Button>
-                    <Button color={occupation == "Authority" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Authority")}>
-                        Authority
-                    </Button>
                     <Button color={occupation == "Scientist" ? "primary" : "neutral"} type="button" onClick={() => setoccupation("Scientist")}>
                         Scientist
                     </Button>
                 </div>
 
-                <DataCard data={data} title={occupation}/>
+                <DataCard data={data} title={occupation} link={link}/>
 
 
             </Container>
@@ -107,7 +115,7 @@ export default function HowHelp() {
     )
 }
 
-function DataCard({data, title}) {
+function DataCard({ data, title ,link}) {
     return (
         <Card className="shadow shadow-lg--hover mt-5">
             <CardBody>
@@ -119,12 +127,19 @@ function DataCard({data, title}) {
                     </div>
                     <div className="pl-4">
                         <h5 className="title text-success">
-                           {title}
+                            {title}
                         </h5>
                         <p>
                             {data}
                         </p>
+                        <a
+                            className="text-warning"
+                            href={link}
+                        >
+                            Learn more
+                        </a>
                     </div>
+                    
                 </div>
             </CardBody>
         </Card>

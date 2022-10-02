@@ -136,7 +136,6 @@ class DemoNavbar extends React.Component {
                     <NavLink
                       className=""
                       href="#WhatStings"
-                      id="tooltip112445449"
                     >
                       WHAT STINKS?  <span className="sr-only">(current)</span>
                     </NavLink>
@@ -146,7 +145,6 @@ class DemoNavbar extends React.Component {
                     <NavLink
                       className=""
                       href="#FloodOfChanges"
-                      id="tooltip112445449"
                     >
                       A FLOOD OF CHANGES <span className="sr-only">(current)</span>
                     </NavLink>
@@ -156,9 +154,16 @@ class DemoNavbar extends React.Component {
                     <NavLink
                       className=""
                       href="#IFollowRivers"
-                      id="tooltip112445449"
                     >
-                      I Follow rivers <span className="sr-only">(current)</span>
+                      I Follow rivers 
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className=""
+                      href="#games"
+                    >
+                      Games! <span className="sr-only">(current)</span>
                     </NavLink>
                   </NavItem>
                 </Nav>

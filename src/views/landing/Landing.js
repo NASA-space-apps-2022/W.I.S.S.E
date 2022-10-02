@@ -45,8 +45,12 @@ import MainSection from "./sections/MainSection";
 import WhatStings from "./sections/WhatStings";
 import FloodOfChanges from "./sections/FloodOfChanges";
 import IFollowRivers from "./sections/IFollowRivers";
+
+import Games from "./sections/Games";
+
 import HowHelp from "./sections/HowIHelp";
 import AboutUs from "./sections/about_us";
+import About_OLIMPEX from "./sections/about_OLIMPEX"
 
 
 import img_tipo_corpora from "./imgs/Logo_Lavanda.png"
@@ -54,11 +58,6 @@ import img_tipo_corpora from "./imgs/Logo_Lavanda.png"
 const mystyle = {
   display: "flex",
   "justify-content": "center"
-};
-
-const iframe_stuyle = {
-  "min-height": "800px",
-  width: "100%"
 };
 
 class Landing extends React.Component {
@@ -84,8 +83,6 @@ class Landing extends React.Component {
             <img src={img_tipo_corpora}/>
           </section>
 
-          <iframe src="https://nasa-space-apps-2022.github.io/wumpus-world-simulator/" style={iframe_stuyle} title="description"></iframe>
-          
          
 
           {/* <section className="section section-lg">
@@ -172,9 +169,13 @@ class Landing extends React.Component {
 
           <IFollowRivers/>
 
+          <Games/>
+
           <HowHelp/>
 
           <AboutUs/>
+
+          <About_OLIMPEX/>
 
           <section className="section section-lg">
             {/* <Game/> */}
@@ -182,7 +183,7 @@ class Landing extends React.Component {
 
           
 
-          <section className="section section-lg pt-0">
+          {/* <section className="section section-lg pt-0">
             <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
@@ -208,10 +209,10 @@ class Landing extends React.Component {
                   </Row>
                 </div>
               </Card>
-          </section>
+          </section> */}
 
           
-          {/* <Footer/> */}
+          <Footer/>
 
         </main>
       </>

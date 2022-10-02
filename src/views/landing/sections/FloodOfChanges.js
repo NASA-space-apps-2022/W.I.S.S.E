@@ -28,7 +28,7 @@ export default function FloodOfChanges() {
                         <Row>
                             <Col lg="6">
                                 <h1 className="display-3 text-white">
-                                    Nombre
+                                    A FLOOD OF CHANGES
                                     <span> Did you know that the main source of risk  </span>
                                 </h1>
                                 <p className="lead text-white">

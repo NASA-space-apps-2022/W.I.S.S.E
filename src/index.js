@@ -30,8 +30,11 @@ import Stinks from "views/stinks/stinks.js"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter  basename={process.env.PUBLIC_URL}>
-    <Route path="/" exact render={(props) => <Landing {...props} />} />
-    <Route path="/info" render={(props) => <Index {...props} />} />
+  <BrowserRouter>
+    <Switch>
+      <Route path="/W.I.S.S.E" exact render={(props) => <Landing {...props} />} />
+      {/* <Route path="/" exact render={(props) => <Landing {...props} />} /> */}
+      {/* <Redirect to="/" /> */}
+    </Switch>
   </BrowserRouter>
 );
