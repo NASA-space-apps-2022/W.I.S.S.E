@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebPage/static/css/main.357c82cb.css",
-    "main.js": "/WebPage/static/js/main.093a7147.js",
+    "main.js": "/WebPage/static/js/main.d7aa8bea.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/WebPage/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fondo_main.jpg": "/WebPage/static/media/fondo_main.3140689f51b81c9a5c21.jpg",
     "static/media/fondo_floods.jpg": "/WebPage/static/media/fondo_floods.b039030ffca081e84ca9.jpg",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.357c82cb.css",
-    "static/js/main.093a7147.js"
+    "static/js/main.d7aa8bea.js"
   ]
 }
