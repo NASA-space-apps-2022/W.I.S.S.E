@@ -258,7 +258,7 @@ class Landing extends React.Component {
                       </p> */}
                     </Col>
                     <Col className="ml-lg-auto" lg="3">
-                      <a href="">
+                      <a href="https://earth.google.com/earth/d/1Kghrtc4-LghZvSUqCmZ9pL2N_xmZ3pjn?usp=sharing">
                         <Button
                           block
                           className="btn-white"

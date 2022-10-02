@@ -23,9 +23,9 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import Index from "views/Index.js";
+// import Index from "views/Index.js";
 import Landing from "views/landing/Landing.js";
-import Stinks from "views/stinks/stinks.js"
+// import Stinks from "views/stinks/stinks.js"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -33,7 +33,7 @@ root.render(
   <BrowserRouter>
     <Switch>
       <Route path="/W.I.S.S.E" exact render={(props) => <Landing {...props} />} />
-      <Route path="/Index" exact render={(props) => <Index {...props} />} />
+      {/* <Route path="/Index" exact render={(props) => <Index {...props} />} /> */}
       {/* <Redirect to="/" /> */}
     </Switch>
   </BrowserRouter>

@@ -79,8 +79,7 @@ export default function AboutUs() {
                                 </p>
                                 <h4> VISION </h4>
                                 <p>
-                                    We seek our program to reach other locations where the water cycle plays as important a role as it
-                                    does in Washington State while OLYMPEX continues the collection of data.
+                                We are looking for our program to reach other places where the water cycle plays as important a role as it does in Washington State, as OLYMPEX continues to analyze the data.
                                 </p>
                                 {/* <a
                                     className="font-weight-bold text-warning mt-5"

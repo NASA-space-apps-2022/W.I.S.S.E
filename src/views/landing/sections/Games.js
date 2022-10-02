@@ -16,6 +16,7 @@ import {
 } from "reactstrap";
 
 import { useMediaQuery } from 'react-responsive';
+import Modals from "views/IndexSections/Modals";
 
 export default function Games() {
     const iframe_stuyle = {
@@ -38,35 +39,7 @@ export default function Games() {
                         </Col>
                     </Row>
 
-                    {/* <Row className="row-grid mt-5">
-                        <Col lg="4">
-                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-settings text-primary" />
-                            </div>
-                            <h5 className="text-white mt-3">Action-oriented</h5>
-                            <p className="text-white mt-3">
-                                Citizens take action, action promotes policies, policies develops plans and aspirations to enact locally.
-                            </p>
-                        </Col>
-                        <Col lg="4">
-                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-ruler-pencil text-primary" />
-                            </div>
-                            <h5 className="text-white mt-3">Encouraging hope</h5>
-                            <p className="text-white mt-3">
-                                Cheering curiosity and optimism, this programme inspires others to discover ways to get involved from a social and civic perspective.
-                            </p>
-                        </Col>
-                        <Col lg="4">
-                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-atom text-primary" />
-                            </div>
-                            <h5 className="text-white mt-3">Evidence-based</h5>
-                            <p className="text-white mt-3">
-                                Starting with evidence, people trust the source and start spreading awareness.
-                            </p>
-                        </Col>
-                    </Row> */}
+                   
                 </Container>
                 <div className="separator separator-bottom separator-skew zindex-100">
                     <svg
@@ -85,9 +58,12 @@ export default function Games() {
                 </div>
             </section>
 
-            {isMobile == true ? null :<iframe src="https://nasa-space-apps-2022.github.io/wumpus-world-simulator/" style={iframe_stuyle} title="description"></iframe>}
+            {isMobile == true ? null : <>
+                <Modals/>
+                <iframe scrolling="no" src="https://nasa-space-apps-2022.github.io/wumpus-world-simulator/" style={iframe_stuyle} title="description"></iframe>
+            </> }
 
-            <iframe src="https://quizizz.com/join/quiz/6339c1c87c2d2e001ded6a53/start?studentShare=true" style={iframe_stuyle} title="description"></iframe>
+            <iframe scrolling="no" src="https://quizizz.com/join/quiz/6339c1c87c2d2e001ded6a53/start?studentShare=true" style={iframe_stuyle} title="description"></iframe>
 
             
         </>
