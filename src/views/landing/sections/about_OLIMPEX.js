@@ -16,7 +16,7 @@ import {
 } from "reactstrap";
 
 // img
-import us from "../imgs/us.jpeg"
+import us from "../imgs/olympex2.jpg"
 
 
 export default function About_OLIMPEX() {
@@ -28,22 +28,25 @@ export default function About_OLIMPEX() {
                         <Col md="6">
                             <div className="pl-md-5">
                                 <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                                    <i className="ni ni-single-02" />
+                                    <i className="ni ni-world" />
                                 </div>
-                                <h3> About Olympex </h3>
+                                <h3>  Washington’s climate is changing for sure.  </h3>
                                 <p className="lead">
-                                    We are a multidisciplinary group of Argentinian students who live in the province of Mendoza, in the proximity of the Andean range. Due to the water crisis we’ve been facing since 2010, we live the consequences of climate change everyday and this is what inspired us to help others understand the role of water in our lives and how our future depends on us.
+                                    Have you ever felt like everybody talks about Climate Change… but it doesn’t affect you at all? This is for you, Washington citizens… Some shocking facts that will blow your mind: 
                                 </p>
-                                <h4> Mission </h4>
+                                <h4> During the last 20 years, 9 out of 10 coastal floods have been caused by human action </h4>
                                 <p>
-                                    Our purpose is to educate people about how climate change is drastically affecting their lives based on factual
-                                    evidence provided by NASA and how they can take action from their role in their community.
+                                    It is known that floods are a natural hazard in the western of U.S.A, but each year its frequency has arised due to climate change and citizens are suffering the harmful consequences.
                                 </p>
-                                <h4> VISSION </h4>
-                                <p>
-                                    We seek our program to reach other locations where the water cycle plays as important a role as it
-                                    does in Washington State while OLYMPEX continues the collection of data.
-                                </p>
+
+                                <h4> The state’s Department of Agriculture is proyecting crop losses of $1,2 billion due to the “wet drought” issue </h4>
+                                <p> Eventhough rainning events are about to increase, this water is not captured and impacts on the loss of soil, among others.  </p>
+
+                                <h4> In Washington, there are more than 380,000 people living in areas at an elevated risk of inland flooding.  </h4>
+                                <p> Floods have created a difficult life situation among Washington citizens and a loss in economy that goverment expects to increase each year. </p>
+                               
+                                <h4> By each degree temperature rises, the economic loss in agriculture due to plagues </h4>
+                                <p> increases between 10 and 25 percent. According to a study made by the Science magazine, we know that raising of temperatures supports the increasing of harmful bugs which affect crops, such as the stik bug in the western area of the U.S. Over the past century, most of the state has warmed one to two degrees (F).  </p>
                
                             </div>
                         </Col>
@@ -73,12 +76,10 @@ export default function About_OLIMPEX() {
                                         />
                                     </svg>
                                     <h4 className="display-3 font-weight-bold text-white">
-                                        Design System
+                                        About Olympex
                                     </h4>
                                     <p className="lead text-italic text-white">
-                                        The Arctic Ocean freezes every winter and much of the
-                                        sea-ice then thaws every summer, and that process will
-                                        continue whatever happens.
+                                        OLYMPEX is the most recent field experiment based on campaigns during short terms created by NASA to study storms passing over West Coast mountain ranges of the Americas. Its main target is to solve the need for validation of climate phenomena and a better undestanding of the hydrological cycle in the area of Washington state . Its name was inspired by Olympic Mountains, the original place where data we have been working with was collected. 
                                     </p>
                                 </blockquote>
                             </Card>

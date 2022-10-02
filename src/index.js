@@ -33,7 +33,7 @@ root.render(
   <BrowserRouter>
     <Switch>
       <Route path="/W.I.S.S.E" exact render={(props) => <Landing {...props} />} />
-      {/* <Route path="/" exact render={(props) => <Landing {...props} />} /> */}
+      <Route path="/Index" exact render={(props) => <Index {...props} />} />
       {/* <Redirect to="/" /> */}
     </Switch>
   </BrowserRouter>

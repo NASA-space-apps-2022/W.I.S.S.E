@@ -45,6 +45,14 @@ class SimpleFooter extends React.Component {
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
+                      href="https://ghrc.nsstc.nasa.gov/home/field-campaigns/olympex"
+                      target="_blank"
+                    >
+                      Data
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
                       href="https://www.freepik.com/"
                       target="_blank"
                     >

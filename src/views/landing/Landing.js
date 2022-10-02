@@ -60,6 +60,11 @@ const mystyle = {
   "justify-content": "center"
 };
 
+const img_corpora = {
+  width: "90%",
+};
+
+
 class Landing extends React.Component {
   state = {};
   componentDidMount() {
@@ -80,7 +85,7 @@ class Landing extends React.Component {
 
           <section className="" style={mystyle}>
             
-            <img src={img_tipo_corpora}/>
+            <img src={img_tipo_corpora} style={img_corpora}/>
           </section>
 
          
@@ -177,39 +182,34 @@ class Landing extends React.Component {
 
           <About_OLIMPEX/>
 
-          <section className="section section-lg">
-            {/* <Game/> */}
-          </section>
-
-          
-
-          {/* <section className="section section-lg pt-0">
+          <section className="section section-lg pt-0">
             <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="8">
                       <h3 className="text-white">
-                        we have a lot to tell you!
+                        Do you wanna see something cool?
                       </h3>
-                      <p className="lead text-white mt-3">
+                      {/* <p className="lead text-white mt-3">
                         palabras inspiradoras
-                      </p>
+                      </p> */}
                     </Col>
                     <Col className="ml-lg-auto" lg="3">
-                      <Button
-                        block
-                        className="btn-white"
-                        color="default"
-                        href="#sections"
-                        size="lg"
-                      >
-                        Read it now!
-                      </Button>
+                      <a href="">
+                        <Button
+                          block
+                          className="btn-white"
+                          color="default"
+                          size="lg"
+                        >
+                        check out this!
+                        </Button>
+                      </a>
                     </Col>
                   </Row>
                 </div>
               </Card>
-          </section> */}
+          </section>
 
           
           <Footer/>
