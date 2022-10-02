@@ -15,11 +15,14 @@ import {
     Col
 } from "reactstrap";
 
+import { useMediaQuery } from 'react-responsive';
+
 export default function Games() {
     const iframe_stuyle = {
-        "min-height": "800px",
+        "min-height": "550px",
         width: "100%"
     };
+    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
     return (
         <>
             <section className="section section-lg bg-gradient-default" id="games">
@@ -82,7 +85,11 @@ export default function Games() {
                 </div>
             </section>
 
-            <iframe src="https://nasa-space-apps-2022.github.io/wumpus-world-simulator/" style={iframe_stuyle} title="description"></iframe>
+            {isMobile == true ? null :<iframe src="https://nasa-space-apps-2022.github.io/wumpus-world-simulator/" style={iframe_stuyle} title="description"></iframe>}
+
+            <iframe src="https://quizizz.com/join/quiz/6339c1c87c2d2e001ded6a53/start?studentShare=true" style={iframe_stuyle} title="description"></iframe>
+
+            
         </>
     )
 }

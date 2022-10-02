@@ -29,10 +29,10 @@ export default function MainTitle() {
                                 <Col lg="6">
                                     <h1 className="display-3 text-white">
                                        
-                                        <span> Campaigns last short… but help for sure! </span>
+                                        <span> Campaigns are short… but help for sure! </span>
                                     </h1>
                                     <p className="lead text-white">
-                                    We are W.I.S.S.E,  an educational programme that helps grow awareness among citizens about the impacts of climate change in local water cycles based on the evidence collected by the OLYMPEX campaign supported by NASA at Washington state. 
+                                    We are W.I.S.S.E,  an educational program that helps raise awareness among citizens about the impacts of climate change in local water cycles based on the evidence collected by the OLYMPEX campaign sponsored by NASA at Washington state. 
                                     </p>
                                 </Col>
                             </Row>
@@ -74,8 +74,7 @@ export default function MainTitle() {
                                                 What stinks?
                                             </h6>
                                             <p className="description mt-3">
-                                                una increíble descripción
-                                            </p>
+                                            Climate change and bugs, a hidden consequence  <br></br> <span style={{color: "white"}}>kk</span> </p>
                                             {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
@@ -108,7 +107,7 @@ export default function MainTitle() {
                                                 A flood of changes
                                             </h6>
                                             <p className="description mt-3">
-                                                una increíble descripción
+                                            What causes floods in Washington state? It rains pineapples? Wet droughts? I don’t get it!
                                             </p>
                                             <a href="#FloodOfChanges">
                                             <Button
@@ -131,7 +130,7 @@ export default function MainTitle() {
                                                 I Follow rivers
                                             </h6>
                                             <p className="description mt-3">
-                                                una increíble descripción
+                                            How Olympic mountains snowfall and rainfall are related to Cascade mountain range precipitations
                                             </p>
                                             <a href="#IFollowRivers">
                                             <Button

@@ -55,12 +55,10 @@ export default function AboutUs() {
                                         />
                                     </svg>
                                     <h4 className="display-3 font-weight-bold text-white">
-                                        Design System
+                                        
                                     </h4>
                                     <p className="lead text-italic text-white">
-                                        The Arctic Ocean freezes every winter and much of the
-                                        sea-ice then thaws every summer, and that process will
-                                        continue whatever happens.
+                                        
                                     </p>
                                 </blockquote>
                             </Card>
@@ -79,7 +77,7 @@ export default function AboutUs() {
                                     Our purpose is to educate people about how climate change is drastically affecting their lives based on factual
                                     evidence provided by NASA and how they can take action from their role in their community.
                                 </p>
-                                <h4> VISSION </h4>
+                                <h4> VISION </h4>
                                 <p>
                                     We seek our program to reach other locations where the water cycle plays as important a role as it
                                     does in Washington State while OLYMPEX continues the collection of data.
@@ -308,7 +306,7 @@ export default function AboutUs() {
                 <Container className="">
                     <Row className="text-center justify-content-center">
                         <Col lg="10">
-                            <h2 className="display-3"> Why educate? </h2>
+                            <h2 className="display-3 text-white"> Why educate? </h2>
 
                         </Col>
                     </Row>
@@ -328,7 +326,7 @@ export default function AboutUs() {
                             </div>
                             <h5 className="text-white mt-3">Encouraging hope</h5>
                             <p className="text-white mt-3">
-                                Cheering curiosity and optimism, this programme inspires others to discover ways to get involved from a social and civic perspective.
+                                busting curiosity and optimism, this programme inspires others to discover ways to get involved from a social and civic perspective.
                             </p>
                         </Col>
                         <Col lg="4">

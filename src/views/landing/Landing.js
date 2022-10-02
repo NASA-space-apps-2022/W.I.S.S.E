@@ -36,10 +36,6 @@ import {
   Col
 } from "reactstrap";
 
-import { useMediaQuery } from 'react-responsive';
-
-const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
-
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Footer from "components/Footers/SimpleFooter.js";
@@ -86,18 +82,19 @@ class Landing extends React.Component {
 
           <MainSection/>
 
-          <section className="section section-lg bg-gradient-default">
+          {/* <section className="section section-lg bg-gradient-default"> */}
+          <section className="section section-lg bg-gradient-danger">
                 <Container className="">
                     <Row className="text-center justify-content-center">
                         <Col lg="10">
-                            <h2 className="display-3 text-white"> Washington’s climate is changing for sure. </h2>
-                            <p className="text-white mt-3" style={p_style}> Have you ever felt like everybody talks about Climate Change… but it doesn’t affect you at all? This is for you, Washington citizens… Some shocking facts that will blow your mind: </p>
+                            <h2 className="display-3 text-white"> Washington’s climate is changing <u>for sure. </u></h2>
+                            <p className="text-white mt-3" style={p_style}> Have you ever felt like everybody talks about Climate Change… but it doesn’t affect you at all? This is for you, Washington citizens… Some facts that will be shocking: </p>
                         </Col>
                     </Row>
                     <Row className="row-grid mt-5">
                         <Col lg="3">
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-settings text-primary" />
+                                <i className="ni ni-bold-up text-primary" />
                             </div>
                             <h5 className="text-white mt-3">During the last 20 years, 9 out of 10 coastal floods have been caused by human action.</h5>
                             <p className="text-white mt-3" style={p_style}>
@@ -106,29 +103,29 @@ class Landing extends React.Component {
                         </Col>
                         <Col lg="3">
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-ruler-pencil text-primary" />
+                                <i className="ni ni-bold-up text-primary" />
                             </div>
                             <h5 className="text-white mt-3">The state’s Department of Agriculture is proyecting crop losses of $1,2 billion due to the “wet drought” issue</h5>
                             <p className="text-white mt-3" style={p_style}>
-                            Eventhough rainning events are about to increase, this water is not captured and impacts on the loss of soil, among others. 
+                            Even though rain events are about to increase, this water is not captured and impacts on the loss of soil, among others. 
                             </p>
                         </Col>
                         <Col lg="3">
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-atom text-primary" />
+                                <i className="ni ni-bold-up text-primary" />
                             </div>
-                            <h5 className="text-white mt-3">In Washington, there are more than 380,000 people living in areas at an elevated risk of inland flooding. </h5>
+                            <h5 className="text-white mt-3">In Washington, there are more than 380,000 people living in areas at an elevated risk of inland flooding.</h5>
                             <p className="text-white mt-3" style={p_style}>
-                            Floods have created a difficult life situation among Washington citizens and a loss in economy that goverment expects to increase each year.   
+                            Floods have created a difficult life situation among Washington citizens and a loss in economy that government expects this phenomenon to increase each year.
                             </p>
                         </Col>
                         <Col lg="3">
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                                <i className="ni ni-atom text-primary" />
+                                <i className="ni ni-bold-up text-primary" />
                             </div>
-                            <h5 className="text-white mt-3">By each degree temperature rises, the economic loss in agriculture due to plagues </h5>
+                            <h5 className="text-white mt-3">By each degree temperature rises, the economic loss in agriculture due to plagues increases between 10 and 25 percent.</h5>
                             <p className="text-white mt-3" style={p_style}>
-                            increases between 10 and 25 percent. According to a study made by the Science magazine, we know that raising of temperatures supports the increasing of harmful bugs which affect crops, such as the stik bug in the western area of the U.S. Over the past century, most of the state has warmed one to two degrees (F).
+                              According to a study made by the Science magazine, we know that raising of temperatures supports the increase of harmful bugs which affect crops, such as the stick bug in the western area of the U.S. Over the past century, most of the state has warmed one to two degrees (F). 
                             </p>
                         </Col>
                     </Row>
@@ -234,15 +231,13 @@ class Landing extends React.Component {
 
           <IFollowRivers/>
 
-          {isMobile == false ? <Games/> : null }
-
-          
+          <Games/> 
 
           <HowHelp/>
 
           <AboutUs/>
 
-          <h1 style={{textAlign: "center"}}> Our secret recipe to reach you </h1>
+          <h4 className="display-3 font-weight-bold" style={{textAlign: "center"}}> Our secret recipe to reach you </h4>
 
           <section className="" style={mystyle}>  
             <img src={img_tipo_corpora} style={img_corpora}/>
@@ -256,7 +251,7 @@ class Landing extends React.Component {
                   <Row className="align-items-center">
                     <Col lg="8">
                       <h3 className="text-white">
-                        Do you wanna see something cool?
+                        Curious about how the Water Cycle works?
                       </h3>
                       {/* <p className="lead text-white mt-3">
                         palabras inspiradoras

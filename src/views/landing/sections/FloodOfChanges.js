@@ -29,11 +29,11 @@ export default function FloodOfChanges() {
                             <Col lg="6">
                                 <h1 className="display-3 text-white">
                                     A FLOOD OF CHANGES
-                                    <span> Did you know that the main source of risk  </span>
+                                    {/* <span> Did you know that the main source of risk  </span> */}
                                 </h1>
-                                <p className="lead text-white">
+                                {/* <p className="lead text-white">
                                     chamullo
-                                </p>
+                                </p> */}
                             </Col>
                         </Row>
                     </div>
@@ -59,19 +59,27 @@ export default function FloodOfChanges() {
 
             <section className="section section-lg pt-6">
                 <Container className="py-lg-md">
-                    <h3> How Olympic mountains snowfall and rainfall are related to Cascade mountain range precipitations </h3>
-                    <p>  Did you know how highly your water supply and the fruit you eat relies on snow from the Cascades? How can Western and Estern Washington have different weather? Do you understand the importance of water conservation? Read more about this in the following article.
+                    <h3> What causes floods in Washington state? It rains pineapples? Wet droughts? I don’t get it! </h3>
+                    <p>  
+                        This is where our water cycle begins. When superficial water from the North Pacific Ocean  is warmed, it evaporates and starts creating clouds. These big air masses are composed of high amounts of water vapor displaces, receiving the name of “atmospheric rivers”. Due to Climate Change temperatures have increased, causing strong and persistent large-scale flow of warm moist air, associated with heavy precipitations, a phenomenon called “The Pineapple Express”.  Nowadays, scientists believe that Washington state is facing “Wet Droughts”. The region had plenty of storms blow across over the winter, but because of record warm temperatures, most precipitation fell as rain instead of snow, incapable of being absorbed by the soil. 
                     </p>
 
                     <h3> Impact </h3>
-                    <p> We need to bathe in less time! Turn off the faucet when brushing your teeth! How many times have we heard this?
-                        Even though it's not false we save some water by applying these practices, we need to be better informed about which are the primary water uses, so as to better focus our solutions.
-                        Washington State University, Vineland, and other researchers may have solutions that can make strong impacts.
+                    <p> 
+                        Among the damages these floods can cause we find:
+                        <ul>
+                            <li> Loss of soil valuable for the agricultural industry and quick erosion of earth material. </li>
+                            <li> Loss of cattle and native fauna. </li>
+                            <li> Loss of cattle and native fauna. </li>
+                            <li> Loss of opportunities of use of water. </li>
+                        </ul>
+                        According to the “States at Risks” project, it is estimated that rains will increase 19% by 2080. 
                     </p>
 
                     <h3> Validating Information </h3>
                     <p> How can a study made in an isolated peninsula in western Washington State be useful ?
                         Along our validation process we will infer how strongly correlated these mountain formations precipitations are.
+                        Also, the U.S. has confirmed it could suffer an aproximated economic loss by floods of 50 billion dollars in 2022 (NOW!). 
                     </p>
                     <a href="">
                         <Button

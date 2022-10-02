@@ -17,6 +17,7 @@ import {
 
 // img
 import us from "../imgs/olympex2.jpg"
+import us2 from "../imgs/us2.JPG"
 
 
 export default function About_OLIMPEX() {
@@ -67,7 +68,7 @@ export default function About_OLIMPEX() {
                                 <CardImg
                                     alt="..."
                                     // src={require("assets/img/theme/img-1-1200x1000.jpg")}
-                                    src={us}
+                                    src={us2}
                                     top
                                 />
                                 <blockquote className="card-blockquote">
@@ -91,7 +92,7 @@ export default function About_OLIMPEX() {
                                         Our research
                                     </h4>
                                     <p className="lead text-italic text-white">
-                                        we have done an intes work of analisis of the apex data, that work was plasmated in this paper:
+                                        We have done an exhaustive work of analisis of the apex data, that work was framed in this paper:
                                     </p>
                                     <a href="">
                                         <Button

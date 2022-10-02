@@ -28,7 +28,7 @@ export default function IFollowRivers() {
                         <Row>
                             <Col lg="6">
                                 <h1 className="display-3 text-white">
-                                    I Follow rivers
+                                    I FOLLOW RIVERS
                                     {/* <span> Do I? go to the rivers, with the rivers, downhill with the river  </span> */}
                                 </h1>
                             </Col>

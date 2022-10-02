@@ -49,7 +49,7 @@ export default function TheTeam() {
                         <h5 className="title">
                             <span className="d-block mb-1" style={{ "font-size": "1rem" }}>Maximiliano Sotar</span>
                             <small className="h6 text-muted" style={{ "font-size": "0.7rem" }}>
-                                Estudiante de Ing. Mecatrónica
+                                Mechatronic Engineering Student
                             </small>
                         </h5>
                         <div className="mt-1">
@@ -110,9 +110,9 @@ export default function TheTeam() {
                 <div className="px-5">
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1" style={{ "font-size": "1rem" }}>gabi</span>
+                            <span className="d-block mb-1" style={{ "font-size": "1rem" }}>Gabriel Vitelli</span>
                             <small className="h6 text-muted" style={{ "font-size": "0.7rem" }}>
-                                Marketing Strategist
+                                Mechatronic Engineering Student
                             </small>
                         </h5>
                         <div className="mt-1">

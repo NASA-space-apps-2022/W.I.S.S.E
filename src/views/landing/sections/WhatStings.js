@@ -28,12 +28,12 @@ export default function WhatStings() {
                         <Row>
                             <Col lg="6">
                                 <h1 className="display-3 text-white">
-                                    What stinks?
-                                    <span> slogan </span>
+                                    WHAT STINKS?
+                                    {/* <span> slogan </span> */}
                                 </h1>
-                                <p className="lead text-white">
+                                {/* <p className="lead text-white">
                                     chamullo
-                                </p>
+                                </p> */}
                             </Col>
                         </Row>
                     </div>
@@ -58,19 +58,18 @@ export default function WhatStings() {
 
             <section className="section section-lg pt-6">
                 <Container className="py-lg-md">
-                    <h3> How Olympic mountains snowfall and rainfall are related to Cascade mountain range precipitations </h3>
-                    <p>  Did you know how highly your water supply and the fruit you eat relies on snow from the Cascades? How can Western and Estern Washington have different weather? Do you understand the importance of water conservation? Read more about this in the following article.
+                    <h3> Climate change and bugs, a hidden consequence </h3>
+                    <p>
+                        The stink bug comes from Asia and it’s been around 20 years since it arived to the U.S.. As a potential plague, stink bug contaminates the plants, by altering its flavor and leaving a thin layer of white film underneath the skin of the fruit. Consequences of Climate Change, such as the increasing temperatures and atmospheric moisture has provided the perfect conditions for this little but powerful bug to spread among the U.S. 
                     </p>
 
                     <h3> Impact </h3>
-                    <p> We need to bathe in less time! Turn off the faucet when brushing your teeth! How many times have we heard this?
-                        Even though it's not false we save some water by applying these practices, we need to be better informed about which are the primary water uses, so as to better focus our solutions.
-                        Washington State University, Vineland, and other researchers may have solutions that can make strong impacts.
+                    <p> During outbreak years, the brown marmorated stink bug has caused significant losses to tree fruit producers, damaging apples, berries and pears. All these are grown in Washington state. According to the USApple, Mid-Atlantic apple growers lost $37 million last year. Damages are not significant in our study area right now, but it does not mean it won’t be at some point. 
                     </p>
 
                     <h3> Validating Information </h3>
-                    <p> How can a study made in an isolated peninsula in western Washington State be useful ?
-                        Along our validation process we will infer how strongly correlated these mountain formations precipitations are.
+                    <p> Due to the fact that there is not enough information to probe the variables related with the distribution of the bug, we implemented diverse tools such as Maxent and Machine Learning empiric models to relate data collected by OLYMPEX and the Pest Management Science. You can find all this data at the CASEI platform from NASA. Through these models we evaluated potential spread of the species and found out that its ecological zone will expand to the North and the Northwest coasts as well.
+
                     </p>
                     <a href="">
                         <Button

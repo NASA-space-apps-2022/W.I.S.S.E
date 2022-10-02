@@ -17,6 +17,15 @@ import {
     Col
 } from "reactstrap";
 
+import two from "../imgs/how_imgs/2.png"
+import four from "../imgs/how_imgs/4.png"
+import nine from "../imgs/how_imgs/9.png"
+import eleven from "../imgs/how_imgs/11.png"
+import twelve from "../imgs/how_imgs/12.png"
+import Thirteen from "../imgs/how_imgs/13.png"
+import fifteen from "../imgs/how_imgs/15.png"
+import sixteen from "../imgs/how_imgs/16.png"
+
 export default function HowHelp() {
     const [occupation, setoccupation] = useState("Student")
     const [data, setdata] = useState()
@@ -121,9 +130,23 @@ function DataCard({ data, title ,link}) {
             <CardBody>
                 <div className="d-flex px-3">
                     <div>
-                        <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                        {/* <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-satisfied" />
-                        </div>
+                        </div> */}
+
+                        
+                        
+                        {title == "Student" ? <><img src={Thirteen} style={{height: "100px"}}/></> : null }
+                        
+                        {title == "Decision makers" ? <><img src={nine} style={{height: "100px"}}/> <img src={sixteen} style={{height: "100px"}}/></> : null }
+                        
+                        {title == "Educator" ? <><img src={four} style={{height: "100px"}}/></> : null }
+
+                        {title == "Producer" ? <><img src={two} style={{height: "100px"}}/><img src={twelve} style={{height: "100px"}}/></> : null }
+                       
+                        {title == "Citizen" ? <><img src={eleven} style={{height: "100px"}}/></> : null }
+
+                        {title == "Scientist" ? <><img src={fifteen} style={{height: "100px"}}/></> : null }
                     </div>
                     <div className="pl-4">
                         <h5 className="title text-success">
