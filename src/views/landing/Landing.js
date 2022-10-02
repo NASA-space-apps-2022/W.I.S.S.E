@@ -64,6 +64,9 @@ const img_corpora = {
   width: "90%",
 };
 
+const p_style = {
+ "font-size": "0.7rem"
+}
 
 class Landing extends React.Component {
   state = {};
@@ -76,19 +79,74 @@ class Landing extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        <DemoNavbar id="home" />
         <main ref="main">
 
           <MainSection/>
-          
-          <h1 style={{textAlign: "center"}}> Our secret recipe to reach you </h1>
 
-          <section className="" style={mystyle}>
-            
-            <img src={img_tipo_corpora} style={img_corpora}/>
-          </section>
-
-         
+          <section className="section section-lg bg-gradient-default">
+                <Container className="">
+                    <Row className="text-center justify-content-center">
+                        <Col lg="10">
+                            <h2 className="display-3 text-white"> Washington’s climate is changing for sure. </h2>
+                            <p className="text-white mt-3" style={p_style}> Have you ever felt like everybody talks about Climate Change… but it doesn’t affect you at all? This is for you, Washington citizens… Some shocking facts that will blow your mind: </p>
+                        </Col>
+                    </Row>
+                    <Row className="row-grid mt-5">
+                        <Col lg="3">
+                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i className="ni ni-settings text-primary" />
+                            </div>
+                            <h5 className="text-white mt-3">During the last 20 years, 9 out of 10 coastal floods have been caused by human action.</h5>
+                            <p className="text-white mt-3" style={p_style}>
+                            It is known that floods are a natural hazard in the western of U.S.A, but each year its frequency has arised due to climate change and citizens are suffering the harmful consequences.
+                            </p>
+                        </Col>
+                        <Col lg="3">
+                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i className="ni ni-ruler-pencil text-primary" />
+                            </div>
+                            <h5 className="text-white mt-3">The state’s Department of Agriculture is proyecting crop losses of $1,2 billion due to the “wet drought” issue</h5>
+                            <p className="text-white mt-3" style={p_style}>
+                            Eventhough rainning events are about to increase, this water is not captured and impacts on the loss of soil, among others. 
+                            </p>
+                        </Col>
+                        <Col lg="3">
+                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i className="ni ni-atom text-primary" />
+                            </div>
+                            <h5 className="text-white mt-3">In Washington, there are more than 380,000 people living in areas at an elevated risk of inland flooding. </h5>
+                            <p className="text-white mt-3" style={p_style}>
+                            Floods have created a difficult life situation among Washington citizens and a loss in economy that goverment expects to increase each year.   
+                            </p>
+                        </Col>
+                        <Col lg="3">
+                            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i className="ni ni-atom text-primary" />
+                            </div>
+                            <h5 className="text-white mt-3">By each degree temperature rises, the economic loss in agriculture due to plagues </h5>
+                            <p className="text-white mt-3" style={p_style}>
+                            increases between 10 and 25 percent. According to a study made by the Science magazine, we know that raising of temperatures supports the increasing of harmful bugs which affect crops, such as the stik bug in the western area of the U.S. Over the past century, most of the state has warmed one to two degrees (F).
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+                <div className="separator separator-bottom separator-skew zindex-100">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        version="1.1"
+                        viewBox="0 0 2560 100"
+                        x="0"
+                        y="0"
+                    >
+                        <polygon
+                            className="fill-white"
+                            points="2560 0 2560 100 0 100"
+                        />
+                    </svg>
+                </div>
+            </section>
 
           {/* <section className="section section-lg">
             <Container>
@@ -179,6 +237,12 @@ class Landing extends React.Component {
           <HowHelp/>
 
           <AboutUs/>
+
+          <h1 style={{textAlign: "center"}}> Our secret recipe to reach you </h1>
+
+          <section className="" style={mystyle}>  
+            <img src={img_tipo_corpora} style={img_corpora}/>
+          </section>
 
           <About_OLIMPEX/>
 

@@ -67,9 +67,9 @@ export default function AboutUs() {
                         </Col>
                         <Col md="6">
                             <div className="pl-md-5">
-                                <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
+                                {/* <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                                     <i className="ni ni-single-02" />
-                                </div>
+                                </div> */}
                                 <h3> About us</h3>
                                 <p className="lead">
                                     We are a multidisciplinary group of Argentinian students who live in the province of Mendoza, in the proximity of the Andean range. Due to the water crisis we’ve been facing since 2010, we live the consequences of climate change everyday and this is what inspired us to help others understand the role of water in our lives and how our future depends on us.
@@ -303,11 +303,12 @@ export default function AboutUs() {
             </section> */}
 
 
-            <section className="section section-lg bg-gradient-default">
+            {/* <section className="section section-lg bg-gradient-default"> */}
+            <section className="section section-lg educate">
                 <Container className="">
                     <Row className="text-center justify-content-center">
                         <Col lg="10">
-                            <h2 className="display-3 text-white"> Why educate? </h2>
+                            <h2 className="display-3"> Why educate? </h2>
 
                         </Col>
                     </Row>

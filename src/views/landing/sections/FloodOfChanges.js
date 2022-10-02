@@ -57,6 +57,35 @@ export default function FloodOfChanges() {
             </section>
 
 
+            <section className="section section-lg pt-6">
+                <Container className="py-lg-md">
+                    <h3> How Olympic mountains snowfall and rainfall are related to Cascade mountain range precipitations </h3>
+                    <p>  Did you know how highly your water supply and the fruit you eat relies on snow from the Cascades? How can Western and Estern Washington have different weather? Do you understand the importance of water conservation? Read more about this in the following article.
+                    </p>
+
+                    <h3> Impact </h3>
+                    <p> We need to bathe in less time! Turn off the faucet when brushing your teeth! How many times have we heard this?
+                        Even though it's not false we save some water by applying these practices, we need to be better informed about which are the primary water uses, so as to better focus our solutions.
+                        Washington State University, Vineland, and other researchers may have solutions that can make strong impacts.
+                    </p>
+
+                    <h3> Validating Information </h3>
+                    <p> How can a study made in an isolated peninsula in western Washington State be useful ?
+                        Along our validation process we will infer how strongly correlated these mountain formations precipitations are.
+                    </p>
+                    <a href="">
+                        <Button
+                            block
+                            className="btn-warning"
+                            size="lg"
+                        >
+                            read our paper
+                        </Button>
+                    </a>
+                </Container>
+            </section>
+
+
         </>
     )
 }

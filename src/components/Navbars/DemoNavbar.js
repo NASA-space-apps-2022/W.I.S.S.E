@@ -78,7 +78,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="" tag={Link}>
                 {/* <h1> FutureSphere </h1> */}
                 <b  style={{"font-size": "2rem"}}> W.I.S.S.E </b>
               </NavbarBrand>

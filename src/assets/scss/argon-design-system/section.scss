@@ -26,6 +26,13 @@
     }
 }
 
+.educate{
+    background-image: url("../../img/fondo_educate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 // Circle sections
 .section-shaped {
     position: relative;
@@ -137,6 +144,8 @@
         background-size: cover;
         background-position: top;
     }
+
+    
 
     .shape-default {
         background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
