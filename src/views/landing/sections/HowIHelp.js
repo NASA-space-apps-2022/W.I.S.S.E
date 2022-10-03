@@ -71,7 +71,7 @@ export default function HowHelp() {
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-white">How can i help? </h4>
+                        <h4 className="display-3 text-white">How can I help? </h4>
                         <p className="text-white">
                             We believe that together we can create a brighter future. Find out which Sustainable Development Goal you would be helping the world with your local action.
                         </p>

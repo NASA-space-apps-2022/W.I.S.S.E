@@ -77,7 +77,7 @@ export default function AboutUs() {
                                     Our purpose is to educate people about how climate change is drastically affecting their lives based on factual
                                     evidence provided by NASA and how they can take action from their role in their community.
                                 </p>
-                                <h4> VISION </h4>
+                                <h4> Vision </h4>
                                 <p>
                                 We are looking for our program to reach other places where the water cycle plays as important a role as it does in Washington State, as OLYMPEX continues to analyze the data.
                                 </p>
@@ -325,7 +325,7 @@ export default function AboutUs() {
                             </div>
                             <h5 className="text-white mt-3">Encouraging hope</h5>
                             <p className="text-white mt-3">
-                                busting curiosity and optimism, this programme inspires others to discover ways to get involved from a social and civic perspective.
+                                Busting curiosity and optimism, this programme inspires others to discover ways to get involved from a social and civic perspective.
                             </p>
                         </Col>
                         <Col lg="4">

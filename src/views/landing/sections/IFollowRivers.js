@@ -15,6 +15,8 @@ import {
     Col
 } from "reactstrap";
 
+import paper from "../../../../src/paper.pdf"
+
 export default function IFollowRivers() {
     return (
         <>
@@ -68,7 +70,7 @@ export default function IFollowRivers() {
                     <p> How can a study made in an isolated peninsula in western Washington State be useful ?
                         Along our validation process we will infer how strongly correlated these mountain formations precipitations are.
                     </p>
-                    <a href="">
+                    <a href={paper}>
                         <Button
                             block
                             className="btn-warning"

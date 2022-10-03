@@ -15,6 +15,8 @@ import {
     Col
 } from "reactstrap";
 
+import Paper from "../../../../src/paper.pdf"
+
 export default function FloodOfChanges() {
     return (
         <>
@@ -70,7 +72,7 @@ export default function FloodOfChanges() {
                         <ul>
                             <li> Loss of soil valuable for the agricultural industry and quick erosion of earth material. </li>
                             <li> Loss of cattle and native fauna. </li>
-                            <li> Loss of cattle and native fauna. </li>
+
                             <li> Loss of opportunities of use of water. </li>
                         </ul>
                         According to the “States at Risks” project, it is estimated that rains will increase 19% by 2080. 
@@ -81,7 +83,7 @@ export default function FloodOfChanges() {
                         Along our validation process we will infer how strongly correlated these mountain formations precipitations are.
                         Also, the U.S. has confirmed it could suffer an aproximated economic loss by floods of 50 billion dollars in 2022 (NOW!). 
                     </p>
-                    <a href="">
+                    <a href={Paper}>
                         <Button
                             block
                             className="btn-warning"

@@ -80,7 +80,7 @@ class SimpleFooter extends React.Component {
                       href="https://github.com/creativetimofficial"
                       target="_blank"
                     >
-                      site template
+                      Site template
                     </NavLink>
                   </NavItem>
                 </Nav>

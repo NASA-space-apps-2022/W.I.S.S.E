@@ -19,6 +19,7 @@ import {
 import us from "../imgs/olympex2.jpg"
 import us2 from "../imgs/us2.JPG"
 
+import paper from "../../../paper.pdf"
 
 export default function About_OLIMPEX() {
     return (
@@ -94,14 +95,25 @@ export default function About_OLIMPEX() {
                                     <p className="lead text-italic text-white">
                                         We have done an exhaustive work of analisis of the apex data, that work was framed in this paper:
                                     </p>
-                                    <a href="">
+                                    <a href={paper}>
                                         <Button
                                             block
                                             className="btn-white"
                                             color="default"
                                             size="lg"
                                         >
-                                            read our paper
+                                            Read our paper
+                                        </Button>
+                                    </a>
+                                    <a href="https://youtu.be/XJIrC6O_ZFc">
+                                        <Button
+                                            block
+                                            className="btn-white"
+                                            color="default"
+                                            size="lg"
+                                            style={{"margin-top": "5%"}}
+                                        >
+                                            Watch our video
                                         </Button>
                                     </a>
                                 </blockquote>

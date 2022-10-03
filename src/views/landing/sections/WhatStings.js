@@ -15,6 +15,8 @@ import {
     Col
 } from "reactstrap";
 
+import paper from "../../../paper.pdf"
+
 export default function WhatStings() {
     return (
         <>
@@ -71,7 +73,7 @@ export default function WhatStings() {
                     <p> Due to the fact that there is not enough information to probe the variables related with the distribution of the bug, we implemented diverse tools such as Maxent and Machine Learning empiric models to relate data collected by OLYMPEX and the Pest Management Science. You can find all this data at the CASEI platform from NASA. Through these models we evaluated potential spread of the species and found out that its ecological zone will expand to the North and the Northwest coasts as well.
 
                     </p>
-                    <a href="">
+                    <a href={paper}>
                         <Button
                             block
                             className="btn-warning"

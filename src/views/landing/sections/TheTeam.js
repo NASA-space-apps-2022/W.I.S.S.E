@@ -69,7 +69,7 @@ export default function TheTeam() {
                         <h5 className="title">
                             <span className="d-block mb-1" style={{ "font-size": "1rem" }}>Manuel López</span>
                             <small className="h6 text-muted" style={{ "font-size": "0.7rem" }}>
-                                Ingeniería Industrial
+                                Industrial Engineering Student
                             </small>
                         </h5>
                         <div className="mt-1">
@@ -92,7 +92,7 @@ export default function TheTeam() {
                         <h5 className="title">
                             <span className="d-block mb-1" style={{ "font-size": "1rem" }}>Anabella Bottasso</span>
                             <small className="h6 text-muted" style={{ "font-size": "0.7rem" }}>
-                                Estudiante de Ingeniería Industrial
+                             Industrial Engineering Student
                             </small>
                         </h5>
                         <div className="mt-1">
@@ -132,7 +132,7 @@ export default function TheTeam() {
                         <h5 className="title">
                             <span className="d-block mb-1" style={{ "font-size": "1rem" }}>Augusto Antonelli</span>
                             <small className="h6 text-muted" style={{ "font-size": "0.7rem" }}>
-                                Estudiante de ingeniería química
+                                Chemical Engineering Student
                             </small>
                         </h5>
                         <div className="mt-1">

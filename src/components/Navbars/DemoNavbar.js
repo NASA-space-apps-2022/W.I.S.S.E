@@ -132,6 +132,7 @@ class DemoNavbar extends React.Component {
                       className=""
                       href="#WhatStings"
                     >
+
                       WHAT STINKS?  <span className="sr-only">(current)</span>
                     </NavLink>
                   </NavItem>
@@ -150,7 +151,7 @@ class DemoNavbar extends React.Component {
                       className=""
                       href="#IFollowRivers"
                     >
-                      I Follow rivers 
+                      I FOLLOW RIVERS
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -158,7 +159,7 @@ class DemoNavbar extends React.Component {
                       className=""
                       href="#games"
                     >
-                      Games! <span className="sr-only">(current)</span>
+                      GAMES! <span className="sr-only">(current)</span>
                     </NavLink>
                   </NavItem>
                 </Nav>

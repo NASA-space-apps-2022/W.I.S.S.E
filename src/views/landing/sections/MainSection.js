@@ -32,7 +32,7 @@ export default function MainTitle() {
                                         <span> Campaigns are short… but help for sure! </span>
                                     </h1>
                                     <p className="lead text-white">
-                                    We are W.I.S.S.E,  an educational program that helps raise awareness among citizens about the impacts of climate change in local water cycles based on the evidence collected by the OLYMPEX campaign sponsored by NASA at Washington state. 
+                                    We are W.I.S.S.E,  an educational platform that helps to raise awareness among citizens about the impacts of climate change in local water cycles based on the evidence collected by the OLYMPEX campaign sponsored by NASA at Washington state. 
                                     </p>
                                 </Col>
                             </Row>
