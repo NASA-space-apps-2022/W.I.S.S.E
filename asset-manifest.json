@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/W.I.S.S.E/static/css/main.18c938e7.css",
-    "main.js": "/W.I.S.S.E/static/js/main.05692a95.js",
+    "main.js": "/W.I.S.S.E/static/js/main.3f0053e8.js",
     "static/media/us2.JPG": "/W.I.S.S.E/static/media/us2.a6c7fcfb7f7d1cdf6c75.JPG",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/W.I.S.S.E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fondo_main.jpg": "/W.I.S.S.E/static/media/fondo_main.3140689f51b81c9a5c21.jpg",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.18c938e7.css",
-    "static/js/main.05692a95.js"
+    "static/js/main.3f0053e8.js"
   ]
 }
